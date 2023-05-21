@@ -7,10 +7,10 @@ videoBtn.addEventListener('click', function () {
   console.log('steak')
   if (Math.random() < 0.5) {
     console.log('steak')
-    video.src = '/apple_restaurant/steak_eating.mov'
+    video.src = 'apple_restaurant/steak_eating.mov'
   } else {
     console.log('salad')
-    video.src = '/apple_restaurant/salad_eating.mov'
+    video.src = 'apple_restaurant/salad_eating.mov'
   }
 
   video.autoplay = true
@@ -33,7 +33,7 @@ const videoBtn_social = document.getElementById('video-btn_social')
 
 videoBtn_social.addEventListener('click', function () {
   const video = document.createElement('video')
-  video.src = '/apple_restaurant/social_eating.mov'
+  video.src = 'apple_restaurant/social_eating.mov'
   video.autoplay = true
 
   video.addEventListener('ended', function () {
